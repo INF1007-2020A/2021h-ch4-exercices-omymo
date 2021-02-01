@@ -1,13 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
+chaine= "bonjour"
 def is_even_len(string: str) -> bool:
     pass
+    if len(chaine)%2==0:
+        print("le nombe de caractére de la chaine {chaine} est pair")
+    else:
+        print("le nombre de caractère de la chaine {chaine} est impair")
+
 
 
 def remove_third_char(string: str) -> str:
     pass
+    print(chaine[-2])
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
